@@ -28,6 +28,16 @@
   margin-bottom: 15px;
 }
 
+.card .Cole {
+  max-width: 200px; /* tamaño máximo mediano */
+  width: 100%;      /* escala para móviles */
+  height: auto;     /* mantiene proporción */
+  display: block;   /* quita espacios indeseados */
+  margin: 1rem auto; /* centra la imagen */
+  border-radius: 12px; /* opcional: esquinas redondeadas */
+ 
+}
+
 /* Pie de página */
 .footer {
   background: #f8f9fa;
