@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "defaultProject": "almuerzo-app",
+  "projects": {
+    "almuerzo-app": {
+      "projectType": "application",
+      "root": "",
+      "sourceRoot": "src",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/almuerzo-app",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.app.json",
+            "assets": [
+              "src/assets"
+            ],
+            "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css"
+            ],
+            "scripts": []
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "almuerzo-app:build"
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "analytics": "fe434ede-20eb-4866-a9cb-7518f7871e32"
+  }
+}
