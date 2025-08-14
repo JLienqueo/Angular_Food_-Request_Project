@@ -3,11 +3,11 @@
 This is a small TypeScript project that demonstrates how to use a library in Angular, TS to call another library or service. The main purpose is to share a mobile number via WhatsApp to place a food service request.
 ✅ Features
 
-    Built with Angular
+    Built with TS
 
     Integrates WhatsApp sharing functionality
 
-    Allows users to send their request through WhatsApp
+    Allows sharing a website for the users
 
     Useful for food service request scenarios
 
