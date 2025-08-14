@@ -1,6 +1,6 @@
-📱 Angular WhatsApp Food Request Project
+📱 TS Food Request Project
 
-This is a small Angular project that demonstrates how to use a library within Angular to call another library or service. The main purpose is to share a mobile number via WhatsApp to place a food service request.
+This is a small TypeScript project that demonstrates how to use a library in Angular, TS to call another library or service. The main purpose is to share a mobile number via WhatsApp to place a food service request.
 ✅ Features
 
     Built with Angular
